@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roman Dobczansky · Online CV</title>
+<meta name="description" content="Online CV for Roman Dobczansky: Data Analyst & Data Science professional.">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>
+:root { --fg:#111; --muted:#555; --bg:#fff; --accent:#2563eb; --chip:#f3f4f6; }
+* { box-sizing: border-box; }
+html, body { margin:0; padding:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; color:var(--fg); background:var(--bg); }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { max-width: 980px; margin: 0 auto; padding: 24px; }
+header { display:flex; flex-wrap:wrap; align-items:flex-start; justify-content:space-between; gap:16px; border-bottom:1px solid #eee; padding-bottom:16px; }
+h1 { font-size: 2rem; margin: 0; }
+.title { font-weight:600; }
+.contact { color:var(--muted); font-size:0.95rem; }
+.contact a { margin-right:12px; }
+.section { padding: 24px 0; }
+.section h2 { font-size:1.25rem; margin:0 0 12px 0; }
+.summary { font-size:1rem; line-height:1.6; color:#1f2937; }
+.chips { display:flex; flex-wrap:wrap; gap:8px; margin-top:8px; }
+.chip { background:var(--chip); padding:6px 10px; border-radius:999px; font-size:0.9rem; }
+.item { margin-bottom:16px; }
+.role { display:flex; flex-wrap:wrap; align-items:baseline; gap:8px; }
+.role .company { color:var(--muted); }
+.dates { color:var(--muted); font-size:0.95rem; }
+ul { margin:8px 0 0 18px; }
+footer { border-top:1px solid #eee; padding-top:16px; color:var(--muted); font-size:0.9rem; }
+.badges a { display:inline-block; margin-right:8px; background:var(--chip); padding:6px 10px; border-radius:999px; font-size:0.9rem; }
+@media (max-width: 640px) {
+  header { flex-direction:column; align-items:flex-start; }
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>Roman Dobczansky</h1>
+        <div class="contact">
+          Westfield, NJ · <a href="mailto:romanwdobczansky@gmail.com">romanwdobczansky@gmail.com</a> · <a href="tel:+13013567698">301-356-7698</a>
+        </div>
+        <div class="badges" style="margin-top:10px;">
+          <a href="https://github.com/roboy88" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/roman-w-dobczansky" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="section">
+      <h2>Professional Summary</h2>
+      <p class="summary">Results-driven Data Analyst with 5+ years of experience transforming data into actionable insights across fintech, insurance, and edtech. Skilled in Python, SQL, Tableau, and cloud-native tools (AWS, GCP). Proven track record in driving revenue growth (+25%), optimizing client targeting, and reducing operational risk via automation and predictive modeling. Strong communicator and collaborator with an eye for business impact.</p>
+    </section>
+
+    <section class="section">
+      <h2>Core Skills &amp; Tools</h2>
+      <div class="chips">
+        <span class="chip">Predictive Modeling · A/B Testing · KPI Tracking · Customer Segmentation</span>
+        <span class="chip">Python · SQL · Tableau · Pandas · Scikit-learn · Git · Docker · GCP (BigQuery)</span>
+        <span class="chip">CRM Optimization · Dashboarding · Lead Scoring · Conversion Funnel Analysis</span>
+        <span class="chip">CI/CD · GitHub Actions · Cloud Automation · Jupyter · Leaflet</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Experience</h2>
+      
+      <div class="item">
+        <div class="role"><span class="title">Data Science TA & Capstone Lead</span> · <span class="company">Rutgers University</span></div>
+        <div class="dates">Nov 2022 – Dec 2024</div>
+        <ul>
+          <li>Mentored 150+ students in Python, SQL, Tableau, and machine learning fundamentals.</li><li>Led capstone projects with real-world datasets; deployed full ML pipelines with Docker + CI/CD.</li><li>Built dashboards for junior tennis outcome forecasting; improved stakeholder communication.</li>
+        </ul>
+      </div>
+      
+      <div class="item">
+        <div class="role"><span class="title">Financial Analyst & Sales Producer</span> · <span class="company">New York Life & Transamerica</span></div>
+        <div class="dates">2019 – Present</div>
+        <ul>
+          <li>Developed predictive models for lead scoring, boosting conversion by 25%.</li><li>Built CRM dashboards to track client behavior; drove 7%+ increase in monthly premiums.</li><li>Automated segmentation workflows to prioritize high-value prospects and reduce churn.</li>
+        </ul>
+      </div>
+      
+      <div class="item">
+        <div class="role"><span class="title">Data & Software Engineering Intern</span> · <span class="company">Globe Trotters</span></div>
+        <div class="dates">Jan 2020 – Jul 2020</div>
+        <ul>
+          <li>Automated reporting scripts and SQL optimizations; cut task time by 50%.</li><li>Supported ETL and database enhancements for faster insight delivery.</li>
+        </ul>
+      </div>
+      
+    </section>
+
+    <section class="section">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Credit Risk Modeling:</strong> Improved AUC by 18% using logistic + tree-based models. <a href="https://github.com/roboy88" target="_blank" rel="noopener">View</a></li><li><strong>Fraud Detection:</strong> Built classifier with 92% accuracy to flag suspicious claims. <a href="https://github.com/roboy88" target="_blank" rel="noopener">View</a></li><li><strong>Lead Scoring Engine:</strong> Developed ranking model that contributed to 7% revenue lift. <a href="https://github.com/roboy88" target="_blank" rel="noopener">View</a></li><li><strong>IUL Outreach Tool:</strong> Combined pricing engine + dashboard to increase client engagement. <a href="https://github.com/roboy88" target="_blank" rel="noopener">View</a></li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>B.S., Psychology</strong>, University of Maryland Global Campus — Relevant: Statistical Programming, Behavioral Economics, Data Structures</li><li><strong>Certificate in Data Science</strong>, Rutgers University — Focus: Machine Learning, APIs, Tableau, DevOps, Cloud Computing</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Reference</h2>
+      <p><strong>Seif Dorani</strong> · Technical Development Lead, Rutgers University<br>
+      <a href="mailto:seif.dorani@gmail.com">seif.dorani@gmail.com</a> · <a href="tel:+17185780771">718-578-0771</a></p>
+    </section>
+
+    <footer class="section">
+      <div>© Roman Dobczansky. Built for GitHub Pages.</div>
+    </footer>
+  </div>
+</body>
+</html>
